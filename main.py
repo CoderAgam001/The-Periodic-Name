@@ -7,13 +7,20 @@
 
 from elements import elements
 
-def main():
-    print("Welcome to The Periodic Name App!")
+print("Welcome to The Periodic Name App!")
     
-    name = input("Enter you Name:\n").lower()
+name = input("Enter you Name:\n").lower()
 
+length = len(name)
+
+def match_element():
+    for i in elements:
+        print(i, elements[i])
+match_element()
+
+def get_elements():
     selected_elements = []
-
+    
     # A
     if name.count("ac") > 0:
         selected_elements.append("Actinium")
