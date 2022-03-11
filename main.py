@@ -7,17 +7,16 @@
 
 from elements import elements
 
-print("Welcome to The Periodic Name App!")
-    
-name = input("Enter you Name:\n").lower()
+def main():
+    print("Welcome to The Periodic Name App!")
+    name = input("Enter The Name: ").lower()
 
-length = len(name)
-
-def select_element():
     selected_elements = []
+    separator = ', '
     
     for ele in elements:
         if name.count(elements[ele]) > 0:
             selected_elements.append(ele)
-
-    print(f"{name} contains {selected_elements}")
+    
+    print(f"The Name '{name.title()}' Consists Of {separator.join(selected_elements)}")
+main()
