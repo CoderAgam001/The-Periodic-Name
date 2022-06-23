@@ -7,8 +7,10 @@
 
 from elements import elements
 
-def main():
-    print("Welcome to The Periodic Name App!")
+print("Welcome to The Periodic Name App!")
+
+on = True
+while on:
     name = input("Enter The Name: ").lower()
 
     selected_elements = []
@@ -19,4 +21,11 @@ def main():
             selected_elements.append(ele)
     
     print(f"The Name '{name.title()}' Consists Of {separator.join(selected_elements)}")
-main()
+
+    run_again = input("Do You Want To Run Again? (y/n): ").lower()
+    
+    if run_again == 'y':
+        on = True
+    
+    else:
+        on = False
