@@ -9,6 +9,9 @@ Enter The Name: Agam
 The Name 'Agam' Consists Of Americium, Gallium, Silver
 ```
 
+Just like above, you can check for any name you want, even imaginary names.
+So try it out yourself!
+
 ## License:
 
 ### This project is licensed under the Apache License, Version 2.0. 
