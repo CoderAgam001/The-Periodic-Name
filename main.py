@@ -20,7 +20,7 @@ while on:
         if name.count(elements[ele]) > 0:
             selected_elements.append(ele)
     
-    print(f"The Given Input '{name.title()}' Consists Of {separator.join(selected_elements)}")
+    print(f"'{name.title()}' Consists Of {separator.join(selected_elements)}")
 
     run_again = input("Do You Want To Run Again? (y/n): ").lower()
     
