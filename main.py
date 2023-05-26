@@ -1,9 +1,6 @@
-# Created by Agamdeep Singh / CodeWithAgam
-# Youtube: CodeWithAgam
-# Github: CodeWithAgam
-# Instagram: @agamdeep_21, @coderagam001
-# Twitter: @CoderAgam001
-# Linkdin: Agamdeep Singh
+# Created by Agamdeep Singh
+# Github: @CoderAgam001
+# Find Me Everywhere: https://linktr.ee/coderagam001
 
 from elements import elements
 
