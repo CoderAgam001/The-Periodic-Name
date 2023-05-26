@@ -15,6 +15,10 @@ It even works for Randomness like this!
 ```
 Welcome to The Periodic Name App!
 Enter The Name or Sentence to Begin: fghjgjgfchijhgfchjhgfdyghikgfdstrdyguifutstyrfyguyfseyasrdfguifusreytdfghjgfdshtsvgbyvcuxercgvyijhfvtyhjvcfdryfvhjkhgfvf
+```
+
+Output
+```
 'Fghjgjgfchijhgfchjhgfdyghikgfdstrdyguifutstyrfyguyfseyasrdfguifusreytdfghjgfdshtsvgbyvcuxercgvyijhfvtyhjvcfdryfvhjkhgfvf' Consists Of Arsenic, Boron, Californium, Carbon, Copper, Darmstadtium, Dysprosium, Erbium, Fluorine, Hafnium, Hydrogen, Iodine, Mercury, Potassium, Rhenium, Rutherfordium, Selenium, Strontium, Sulphur, Tennessine, Uranium, Vanadium, Xenon, Yttrium
 ```
 
